@@ -50,8 +50,8 @@ local function init()-- initialize all modules
 	move.init(x,y,z,direction,robot,computer,sides)
 	chaos.init(distToChaos,towerHeight)
 	print("Localizing Chaos Guardian")
-    print("Subscribe to FuzeIII") -- In case the robot does not survive, "Subscribe to FuzeIII" will be its last words of wisdom
-	
+    	print("Subscribe to FuzeIII") -- In case the robot does not survive, "Subscribe to FuzeIII" will be its last words of wisdom
+	print("Abonnez-vous à FuzeIII") -- In case the robot does not survive, "Abonnez-vous à FuzeIII" will be its last words of wisdom
 	print("My pos x,y,z,dir: ",move.x(),move.y(),move.z(),move.direction())
 end
 
